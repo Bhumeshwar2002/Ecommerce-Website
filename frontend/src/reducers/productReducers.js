@@ -9,6 +9,7 @@ import {
 	PRODUCT_DETAILS_REQUEST
 } from "../constants/productConstant";
 
+
 export const productReducer = (state = { product: [] }, action) => {
 	switch (action.type) {
 		case ALL_PRODUCT_REQUEST:

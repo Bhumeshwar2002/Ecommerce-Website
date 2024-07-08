@@ -6,7 +6,9 @@ import WebFont from "webfontloader"
 import Footer from "./component/layout/Footer/Footer.js"
 import { useEffect } from 'react';
 import Home from "./component/Home/Home.js"
-import Loader from './component/layout/loader/Loader.js';
+// import Loader from './component/layout/loader/Loader.js';
+import ProductDetails from './component/Product/ProductDetails.js';
+
 
 // import Headers  from "./component/layout/Header.js"
 function App(){
@@ -23,6 +25,7 @@ function App(){
     <Header></Header>
     <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/product/:id" element={<ProductDetails/>} />
       </Routes>
 
 
