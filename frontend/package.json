@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.16.0",
     "@mui/styles": "^5.16.0",
     "@reduxjs/toolkit": "^2.2.3",
@@ -16,6 +17,7 @@
     "react-alert-template-basic": "^1.0.2",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-js-pagination": "^3.0.3",
     "react-material-ui-carousel": "^3.4.2",
     "react-rating-stars-component": "^2.2.0",
     "react-redux": "^9.1.0",

@@ -1,0 +1,120 @@
+.productsHeading{
+    margin: 2vmax auto;
+    width: 15vw;
+    border-bottom: 1px solid rgba(0,0,0,0.171);
+    padding: 2vmax;
+    color: rgba(0,0,0,0.678);
+    font: 500 1.5vmax "Roboto";
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5vmax;
+    justify-content: center;
+}
+
+/* paginatin css */
+/* .paginationBox{
+    display: flex;
+    justify-content: center;
+    margin: 6vmax;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.page-item{
+    background-color: white;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0,0.178);
+    padding: 1vmax 1.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.page-item:first-child{
+    border-radius: 5px 0 0 5px;
+
+}
+.page-item:last-child{
+    border-radius: 0  5px 5px 0;
+}
+.page-link{
+    text-decoration: none;
+    font: 300 0.7vmax "Roboto";
+    color: rgb(80,80,80);
+    transition: all 0.3s;
+}
+.page-link:hover{
+    background-color: white;
+}
+
+.page-link:hover .page-link{
+    color: grey;
+} */
+
+
+.paginationBox {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .page-item {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .page-link {
+    display: block;
+    padding: 8px 16px;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .page-link:hover {
+    background-color: #f8f9fa;
+    border-color: #b8cde5;
+  }
+  
+  .pageItemActive .page-link {
+    background-color: grey;
+    color: white;
+    border-color: grey;
+    cursor: default;
+  }
+  
+  .pageItemActive .page-link:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .page-link:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .paginationBox .page-item {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  
+
+  
